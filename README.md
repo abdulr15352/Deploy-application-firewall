@@ -95,15 +95,19 @@ The Deploy-application-firewal project aimed to deploy a secure Nginx web server
   - Step 6.2 Under settings click on DNAT rules and add a rule collection
   - Step 6.2 Fill in a value for name, in priority we'll set the number to 100 as this will take the highest priority
   - Step 6.3 Now click on add rule and select the rule we created
-  - Step 6.4 In source IP we'll fill in the ip of our host machine to allow access, if we want multiple people to have access we can also add their ip here.
+  - Step 6.4 In source IP we'll fill in the public ip of our host machine to allow access, if we want multiple people to have access we can also add their ip here.
     
-    ![image](https://github.com/user-attachments/assets/47e2fb1b-b299-4db9-ad7c-53c607e537f5)
+![image](https://github.com/user-attachments/assets/11ce2334-01cc-4c45-9a65-f380e3f32103)
 
   - Step 6.5 In destination IP we'll fill in the public ip adress of the firewall
   - Step 6.6 In destination ports we'll fill in any number to use as the firewall port
   - Step 6.7 In translated type we'll select IP address and in translated address we'll fill in the private ip address of our VM
   - Step 6.8 In translated port we'll fill in 80 as Nginx runs on port 80, now we'll click on save
-    
-![image](https://github.com/user-attachments/assets/6cae78d4-0315-46ef-9423-ccfbe97e4d11)
 
- ## Now we can access the Nginx application from the browser on our host machine
+![image](https://github.com/user-attachments/assets/acd9a87f-365b-4289-b633-28fb9ac8b6f9)
+    
+
+ ## Now we can successfully access the Nginx application from the browser on our host machine
+ 
+ ![image](https://github.com/user-attachments/assets/134f94dc-bf6c-4bc1-9091-a162cc5f9732)
+
