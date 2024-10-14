@@ -2,15 +2,24 @@
 Deploy an application behind Firewall on Azure
 
 ## Objective
-
+The Deploy-application-firewal project aimed to deploy a secure Nginx web server within Azure's cloud infrastructure. The primary goal was to gain hands-on experience in setting up virtual networks (VNETs), configuring virtual machines (VMs), and managing network security using Azure Firewall and Azure Bastion. This project provided practical knowledge in cloud networking, security configurations, and web server deployment on Azure.
 
 ### Skills Learned
-
+- Azure Resource Management: Creating and managing Resource Groups and Virtual Networks.
+- Virtual Machine Deployment: Setting up VMs with proper configurations and networking.
+- Secure VM Access: Using Azure Bastion and SSH keys for secure connections to VMs.
+- Web Server Installation: Installing and configuring Nginx on an Ubuntu server.
+- Firewall Configuration: Setting up Azure Firewall and DNAT rules for external access to internal resources.
+- Network Security: Understanding Azure networking, subnets, IP addressing, and security best practices.
+- Azure Portal Navigation: Gaining proficiency in using the Azure Portal for resource management.
 
 
 ### Tools Used
-
-
+- Azure Portal: For creating and managing cloud resources like VMs, VNETs, and Firewalls.
+- Azure Bastion: For secure, browser-based SSH access to VMs without exposing public IPs.
+- SSH: For secure communication with the VM.
+- Nginx: As the web server software to host the web application.
+- Azure Firewall: For controlling inbound and outbound network traffic with DNAT rules.
 
 ## Steps
 
