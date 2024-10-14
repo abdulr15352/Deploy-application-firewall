@@ -27,5 +27,7 @@ Deploy an application behind Firewall on Azure
   - Step 3.3 In image select Ubuntu server 20.04, and in VM architecture we'll keep x64
   - Step 3.4 In authentication select SSH public key, and generate a new key pair.
   - Step 3.5 In networking select the default subnet, also scroll down and enable delete NIC when VM is deleted. click on review + create and create. Remember to download the private key.
- - Step 4
-   - Step 4.1
+ - Step 4 Use Bastion to connect to the VM
+   - Step 4.1 in the VM we created click on Bastion.
+   - Step 4.2 In Authentication type select SSH private key from local file, in username provide a username and in the local file select the private key we downloaded.
+   - Step 4.3 Now click on connect and we'll be connected to the VM.
